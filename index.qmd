@@ -1,0 +1,33 @@
+---
+title: "Sergio Vinagrero"
+toc: false
+image: assets/portrait.png
+about:
+  template: trestles
+  links:
+  - text: GitHub
+    icon: github
+    url: "http://github.com/servinagrero"
+  - text: "{{< ai orcid >}} ORCID"
+    url: https://orcid.org/0000-0001-7460-3187
+  - text: "{{< ai google-scholar >}} Scholar"
+    url: https://scholar.google.com/citations?hl=en&pli=1&user=5fghz1kAAAAJ
+  - text: LinkedIn
+    url: "http://linkedin.com/in/servinagrero"
+    icon: linkedin
+  - text: Resume
+    url: "assets/resume.pdf"
+    icon: file-earmark-pdf
+---
+
+## A bit about me
+
+I am a post-doctoral researcher at [École Centrale de Lyon](https://www.ec-lyon.fr/){.btn}, France. I received a PhD in _"Methodologies for the Design, the Modeling, and the Quality Assessment of Physical Unclonable Functions (PUFs)"_ in 2024 by the Université Grenoble Alpes.
+
+Right now I'm working on the creation of security protocols leveraging Photonic PUFs under the [NEUROPULS](https://neuropuls.eu/){.btn} European project. I do most of my work in R and Julia. I've also work with Python, Rust, VHDL and other plethora of tools and software.
+
+When I'm not working I like to spend my time doing photography, baking and learning to play the piano.
+
+<br>
+[Learn more about me](about.qmd){.btn}
+

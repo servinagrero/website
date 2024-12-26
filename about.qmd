@@ -1,0 +1,31 @@
+---
+# title: "About"
+
+bibliography: publications.bib
+csl: ieee.csl
+nocite: |
+  @*
+---
+
+```{r}
+#| include: false
+
+projects <- yaml::yaml.load_file("./projects.yml")$projects
+```
+
+## Selected Projects
+
+```{r}
+#| echo: false
+#| output: asis
+
+for (p in projects) {
+  cat(sprintf("[%s](%s){.btn} %s\n\n", p$name, p$url, p$desc))
+}
+```
+
+## Publications
+
+::: {#refs}
+:::
+

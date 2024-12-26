@@ -1,0 +1,17 @@
+projects:
+- name: SRAMPlatform
+  url: https://servinagrero.github.io/SRAMPlatform/
+  desc: >-
+    is a platform is a collection of tools that aim to automate the process of collecting memory samples of numerous micro-controllers and their subsequent storage for future analysis. The memory data gathered will then be used mainly for SRAM-based Physical Unclonable Functions (PUF) analysis, as it is normally very difficult to gather enough data for this type of analysis.
+- name: NIMPHEL
+  url: https://servinagrero.github.io/nimphel/
+  desc: >- 
+    is a generic, open-source framework tackling rapid design exploration for the generation of modular and parametric electronic designs that is able to work on any major simulator.
+- name: Monaco
+  url: https://servinagrero.github.io/monaco/
+  desc: >-
+    provides utilities to generate values that get injected into different templates. The user configures a project as a set of templates, a set of value generators and a command to be executed. The can be executed multiple times allowing the generation of mulitple files.
+- name: PUFR
+  url: https://servinagrero.github.io/pufr/
+  desc: >-
+    is an R library that provides functions and algorithms for the analysis and evaluation of Physical Unclonable Functions.

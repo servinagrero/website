@@ -1,0 +1,15 @@
+{
+  "hash": "4344724a96a067d5a908b6573a44dfa7",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Sergio Vinagrero\"\ntoc: false\nimage: assets/portrait.png\nabout:\n  template: trestles\n  links:\n  - text: GitHub\n    icon: github\n    url: \"http://github.com/servinagrero\"\n  - text: \"{{< ai orcid >}} ORCID\"\n    url: https://orcid.org/0000-0001-7460-3187\n  - text: \"{{< ai google-scholar >}} Scholar\"\n    url: https://scholar.google.com/citations?hl=en&pli=1&user=5fghz1kAAAAJ\n  - text: LinkedIn\n    url: \"http://linkedin.com/in/servinagrero\"\n    icon: linkedin\n  - text: Resume\n    url: \"assets/resume.pdf\"\n    icon: file-earmark-pdf\n\nfilters:\n  - filters.lua\n\n# suppress-bibliography: true\nbibliography: publications.bib\ncsl: ieee.csl\nnocite: |\n  @*\n---\n\n\n\n\n\n## Projects\n\n\n[SRAMPlatform](https://servinagrero.github.io/SRAMPlatform/){.btn} is a platform is a collection of tools that aim to automate the process of collecting memory samples of numerous micro-controllers and their subsequent storage for future analysis. The memory data gathered will then be used mainly for SRAM-based Physical Unclonable Functions (PUF) analysis, as it is normally very difficult to gather enough data for this type of analysis.\n\n[NIMPHEL](https://servinagrero.github.io/nimphel/){.btn} is a generic, open-source framework tackling rapid design exploration for the generation of modular and parametric electronic designs that is able to work on any major simulator.\n\n[Monaco](https://servinagrero.github.io/monaco/){.btn} provides utilities to generate values that get injected into different templates. The user configures a project as a set of templates, a set of value generators and a command to be executed. The can be executed multiple times allowing the generation of mulitple files.\n\n[PUFR](https://servinagrero.github.io/pufr/){.btn} is an R library that provides functions and algorithms for the analysis and evaluation of Physical Unclonable Functions.\n\n\n## Interests\n\n- Photography\n- Baking\n\n## Publications\n\n::: {#refs}\n:::\n\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

@@ -1,0 +1,60 @@
+# Adding a blog: https://samanthacsik.github.io/posts/2022-10-24-quarto-blogs/
+# https://silviacanelon.com/blog/2023-09-29-hello-quarto/
+
+project:
+  type: website
+  output-dir: public
+  resources:
+    - assets/resume.pdf
+  preview:
+    port: 8080
+    browser: true
+    watch-inputs: true
+    timeout: 3600
+
+execute:
+  freeze: auto
+
+author-meta: "Sergio Vinagrero"
+
+website:
+  title: "Sergio Vinagrero"
+  open-graph:
+    locale: en_GB
+  page-navigation: true
+  back-to-top-navigation: true
+  navbar:
+    title: false
+    collapse: true
+    left:
+      - href: index.qmd
+        text: HOME
+      - href: about.qmd
+        text: ABOUT
+    right:
+      - href: https://github.com/servinagrero/
+        icon: github
+        aria-label: "Source Code"
+  page-footer:
+    left: >-
+     &#169; 2024 Sergio Vinagrero
+    right: >-
+     Made with [Quarto](https://quarto.org){.btn}
+
+format:
+  html:
+    theme:
+      light: 
+        - cosmo
+        - assets/theme-light.scss
+      dark:
+        - cosmo
+        - assets/theme-dark.scss
+    lightbox: true
+    toc: true
+    page-layout: full
+    sidebar: false
+    smooth-scroll: true
+    link-external-newwindow: true
+    code-link: true
+    highlight-style: a11y
